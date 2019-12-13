@@ -1,0 +1,48 @@
+body{background-color: #ddd;}
+img.sos{}
+img.sos:hover{opacity: 1;}
+.kiri ul {list-style: none; margin: 0; padding: 0;}
+.kiri ul li{padding: 10px; font-size: 10pt; transition: .3s;}
+.kiri ul li:hover{color: red;}
+.kanan{width: 76%; float: right; margin-left: 4%;}
+.kanan h2{color: #00a0ff; font-weight: 500; font-size: 20pt; margin-bottom: 20px;}
+.kiri{width: 20%; background-color: #eee; float: left;}
+.clear{clear: both;}
+ul.menas{margin: 0;padding: 0;}
+ul.menas li{list-style: none;float: left;margin-left: 20px; font-size: 9pt; color: white;}
+ul.menas li a{display: block;padding: 5px;text-decoration: none;color: white; opacity: .8;height: 20px;}
+ul.menas li a:hover{opacity: 1;text-decoration: underline;}
+ul.menas ul{display: none;position: absolute;background-color: green;z-index: 9999;padding-top: 30px;}
+ul.menas ul li{float: none;margin-top: 10px;}
+ul.menas li:hover > ul{display: block;}
+.m2{float: none; padding: 10px 15px 0 0;}
+#kirimenuu{overflow: hidden; max-width: 500px; float: left;}
+#dasarmenu{float: right; max-width: 600px; padding-top: 20px;}
+#head2{padding: 10px; overflow: hidden; }
+#lglsp{width: 100px;}
+
+@media screen and (max-width: 810px){
+	.container{width: 100%;}
+	.kanan{width: 66%;}
+	.kiri{width: 30%;}
+}
+
+@media screen and (max-width: 766px){
+	.kanan p{font-size: 10pt;}
+	.kanan h2{font-size: 16pt;}
+	.kanan h4{font-size: 15pt;}
+	.kanan ul li{font-size: 10pt;}
+	.kanan ol{padding-left: 10px;}
+	.kanan ol li{font-size: 10pt;}
+	.mn1{display: none;}
+	.menas {margin-left: 0px;}
+	#kirimenuu{width: 430px; margin: auto; float: none; }
+	#dasarmenu{float: none; width: 200px; margin: auto; padding-top: 20px; }
+	#head2{padding-bottom: 30px;}
+}
+
+@media screen and (max-width: 480px){
+	#head2 #lglsp{width: 80px;}
+	#head2 h2{font-size: 20pt;}
+	#head2 #deslsp{font-size: 10pt;}
+}
