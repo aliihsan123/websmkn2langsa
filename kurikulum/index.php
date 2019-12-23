@@ -241,7 +241,7 @@
         </div>
       </a>
 
-      <a href="pagenotfound.php">
+      <a href="jadwalbelajar/index.php">
         <div class="kotakk3">
           <div class="kirii">
             <h4>JADWAL BELAJAR</h4>

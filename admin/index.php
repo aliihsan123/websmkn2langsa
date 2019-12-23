@@ -92,9 +92,9 @@
 	  <div class="card">
 	    <img src="../images/kelola7.png" class="card-img-top" alt="...">
 	    <div class="card-body">
-	      <h5 class="card-title">Kompetensi</h5>
-	      <p class="card-text">Mengelola Kompetensi SMKN 2 Langsa.</p>
-	      <a href="kompetensi.php" class="btn btn-primary">Kelola</a>
+	      <h5 class="card-title">Kurikulum</h5>
+	      <p class="card-text">Mengelola Kurikulum.</p>
+	      <a href="kurikulum/index.php" class="btn btn-primary">Kelola</a>
 	    </div>
 	  </div>
 	  <div class="card">

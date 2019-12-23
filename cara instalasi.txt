@@ -1,0 +1,4 @@
+Proses Instalasi
+
+1. Aplikasi penjadwalan ada di admin/jadwalbelajar
+2. Database yang digunakan ada di dalam folder jadwalbelajar dengan nama 'db_smkn2langsa.sql'

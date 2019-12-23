@@ -64,7 +64,8 @@
 				<form action="" method="post">
 					<input style="padding-top: 10px; padding-bottom: 10px;" class="container" type="text" name="username" placeholder="Masukkan Username" required="required"><br><br>
 					<input style="padding-top: 10px; padding-bottom: 10px;" class="container" type="password" name="password" placeholder="Masukkan Password" required="required"><br><br>
-					<input class="btn btn-primary" style="width: 100%;" type="submit" value="Sigin">
+					<input class="btn btn-primary" style="width: 100%;" type="submit" value="Sigin"><br><br>
+					<a class="btn btn-danger" style="width: 100%;" href="index.php">Back</a>
 			</form>
 			</p>
 			<?php
